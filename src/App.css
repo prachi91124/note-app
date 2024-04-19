@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main{
+  max-width: 960px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  min-height: 100vh;
+}
+
+.header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0px;
+}
+.title{
+  font-size: 50px;
+  font-weight: 900;
+  text-align: center;
+  font-family: PT Sans;
+}
